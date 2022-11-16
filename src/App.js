@@ -75,7 +75,7 @@ function App() {
       h='100vh'
       w='100vw'
     >
-      <Box position='absolute' left={0} top={0} h='100%' w='100%'>
+      <Box position='relative' left={0} top={0} h='80%' w='50%'>
         {/* Google Map Box */}
         <GoogleMap
           center={center}
